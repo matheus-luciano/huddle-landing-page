@@ -66,7 +66,7 @@ h3 {
     width: 30%;
     height: 40px;
     color:hsl(257, 40%, 49%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(87, 12, 12, 0.5)
 }
 
 #register-button:hover{
@@ -81,8 +81,18 @@ h3 {
     grid-column: 2/3;
     
     position: relative;
-    background-color: white;
-    align-self: end;
-    justify-content: end;
+    
+    align-self:flex-end;
+    
     text-align: end;
 }
+
+.image-social{
+    width: 40px;
+    height: 40px;
+}
+
+.image-social:hover{
+    color:hsl(300, 69%, 71%);
+}
+
